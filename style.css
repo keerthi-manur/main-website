@@ -9,6 +9,7 @@ body {
   align-items: center;
   height: 100%;
   background: #1D1F20;
+  position: static;
 }
 #box {
   display: flex;
@@ -54,6 +55,27 @@ body {
     background-color: #000;
     color: #FFF;
    }
+
+a {
+    color: #031627;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#00A0C6; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+p {
+  color: white;
+  width: 100px;
+  height: 100px;
+  font-family: 'Raleway';
+  font-size: 4.5rem;
+  position: static;
+
+}
 
 
 @keyframes animatedgradient {
